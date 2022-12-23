@@ -3,7 +3,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Wheather App</h1>
+      <footer>This project was coded by Yuliia Demchenko </footer>
+      <a href="">Open source code</a>
     </div>
   );
 }
