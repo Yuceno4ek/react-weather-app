@@ -25,7 +25,9 @@
   line-height: 19px;
   list-style: none;
 }
-
+.weather-icon {
+  float: left;
+}
 footer {
   text-align: center;
   font-size: 11px;
@@ -36,9 +38,8 @@ footer {
   color: rgb(33, 33, 33);
 }
 
-.weather img {
-  vertical-align: sub;
-  width: 64px;
+canvas {
+  margin: 6px;
 }
 .weather .unit {
   color: rgb(33, 33, 33);
