@@ -1,11 +1,13 @@
 .weather {
-  border: 1px solid #c1c1c1;
-  max-width: 45%;
+  border: 3px solid rgb(37, 62, 91);
+  max-width: 40%;
   font-family: Arial, sans-serif;
-  color: #878787;
+  color: #2d2d2d;
   padding: 16px;
-  margin: 30px auto;
-  border-radius: 4px;
+  margin: 100px auto;
+  border-radius: 10px;
+  background-color: rgb(249, 242, 237);
+  opacity: 0.9;
 }
 
 .weather h1 {
@@ -30,7 +32,14 @@
 }
 footer {
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
+  font-style: italic;
+
+  color: rgb(221, 219, 219);
+  font-weight: 400;
+}
+footer a {
+  color: white;
 }
 .weather .temperature {
   font-size: 64px;
@@ -48,4 +57,14 @@ canvas {
   position: relative;
   top: -32px;
   margin-left: 5px;
+}
+.btn-search {
+  background-color: rgb(37, 62, 91);
+  color: white;
+  border: 1px solid white;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+.btn-search:hover {
+  background-color: rgb(26, 52, 81);
 }
